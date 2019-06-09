@@ -50,6 +50,7 @@ class OrderedList:
         previous = None
         stop = False
 
+        # proses menentukan lokasi dimana data akan di simpan/sisipkan
         while current is not None and not stop:
             if current.getData() > item:
                 stop = True
